@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Git,Heroku,Pycharm,">
 
 
 
@@ -79,17 +79,18 @@
 
 
 
-<meta name="description" content="但愿你的眼睛，能看得到笑容">
+<meta name="description" content="把项目推送到Heroku时报错, 显示—failed to push some refs to git@heroku.com">
+<meta name="keywords" content="Git,Heroku,Pycharm">
 <meta property="og:type" content="article">
-<meta property="og:title" content="把项目推送到Heroku时报错--failed to push some refs to git@heroku.com">
-<meta property="og:url" content="https://coder-aaron.github.io/2019/07/10/把项目推送到Heroku时报错-failed-to-push-some-refs-to-git-heroku-com/index.html">
+<meta property="og:title" content="failed to push some refs to git@heroku.com">
+<meta property="og:url" content="https://coder-aaron.github.io/2019/07/10/failed-to-push-some-refs-to-githeroku-com/index.html">
 <meta property="og:site_name" content="Aaron&#39;s Moments">
-<meta property="og:description" content="但愿你的眼睛，能看得到笑容">
+<meta property="og:description" content="把项目推送到Heroku时报错, 显示—failed to push some refs to git@heroku.com">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-07-09T16:22:30.235Z">
+<meta property="og:updated_time" content="2019-07-09T16:41:51.680Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="把项目推送到Heroku时报错--failed to push some refs to git@heroku.com">
-<meta name="twitter:description" content="但愿你的眼睛，能看得到笑容">
+<meta name="twitter:title" content="failed to push some refs to git@heroku.com">
+<meta name="twitter:description" content="把项目推送到Heroku时报错, 显示—failed to push some refs to git@heroku.com">
 
 
 
@@ -119,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="https://coder-aaron.github.io/2019/07/10/把项目推送到Heroku时报错-failed-to-push-some-refs-to-git-heroku-com/">
+  <link rel="canonical" href="https://coder-aaron.github.io/2019/07/10/failed-to-push-some-refs-to-githeroku-com/">
 
 
 
 
 
-  <title>把项目推送到Heroku时报错--failed to push some refs to git@heroku.com | Aaron's Moments</title>
+  <title>failed to push some refs to git@heroku.com | Aaron's Moments</title>
   
 
 
@@ -303,7 +304,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://coder-aaron.github.io/2019/07/10/把项目推送到Heroku时报错-failed-to-push-some-refs-to-git-heroku-com/">
+    <link itemprop="mainEntityOfPage" href="https://coder-aaron.github.io/2019/07/10/failed-to-push-some-refs-to-githeroku-com/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="这个杀手不太冷">
@@ -320,7 +321,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">把项目推送到Heroku时报错--failed to push some refs to git@heroku.com</h1>
+          <h1 class="post-title" itemprop="name headline">failed to push some refs to git@heroku.com</h1>
         
 
         <div class="post-meta">
@@ -343,6 +344,28 @@
           </span>
 
           
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习/" itemprop="url" rel="index">
+                    <span itemprop="name">学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -350,7 +373,7 @@
 
           
           
-             <span id="/2019/07/10/把项目推送到Heroku时报错-failed-to-push-some-refs-to-git-heroku-com/" class="leancloud_visitors" data-flag-title="把项目推送到Heroku时报错--failed to push some refs to git@heroku.com">
+             <span id="/2019/07/10/failed-to-push-some-refs-to-githeroku-com/" class="leancloud_visitors" data-flag-title="failed to push some refs to git@heroku.com">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -375,7 +398,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  83
                 </span>
               
 
@@ -412,7 +435,17 @@
       
 
       
-        
+        <p>把项目推送到Heroku时报错, 显示—failed to push some refs to <a href="mailto:git@heroku.com" target="_blank" rel="noopener">git@heroku.com</a></p>
+<a id="more"></a>
+
+<p>在Pycharm终端分别执行以下代码时，会显示报错</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ heroku login</span><br><span class="line">$ heroku create</span><br><span class="line">$ git push heroku master</span><br></pre></td></tr></table></figure>
+
+<p>此时需要添加一行代码即可解决， 如下：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$ heroku login</span><br><span class="line">$ heroku create</span><br><span class="line">$ git commit -m <span class="string">"Add precompiled assets for Heroku"</span></span><br><span class="line">$ git push heroku master</span><br></pre></td></tr></table></figure>
+
+<p>Source: <a href="https://stackoverflow.com/questions/9794413/failed-to-push-some-refs-to-githeroku-com" target="_blank" rel="noopener">stackoverflow</a></p>
+
       
     </div>
     
@@ -456,6 +489,16 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/Git/" rel="tag"># Git</a>
+          
+            <a href="/tags/Heroku/" rel="tag"># Heroku</a>
+          
+            <a href="/tags/Pycharm/" rel="tag"># Pycharm</a>
+          
+        </div>
+      
 
       
       
@@ -465,8 +508,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/09/如何在Windows下新建-开头文件/" rel="next" title="如何在Windows下新建.开头文件">
-                <i class="fa fa-chevron-left"></i> 如何在Windows下新建.开头文件
+              <a href="/2019/07/10/把项目推送到Heroku是报错-failed-to-push-some-refs-to-git-heroku-com/" rel="next" title="failed to push some refs to git@heroku.com">
+                <i class="fa fa-chevron-left"></i> failed to push some refs to git@heroku.com
               </a>
             
           </div>
@@ -474,10 +517,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/07/10/把项目推送到Heroku是报错-failed-to-push-some-refs-to-git-heroku-com/" rel="prev" title="failed to push some refs to git@heroku.com">
-                failed to push some refs to git@heroku.com <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
