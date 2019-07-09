@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[如何在Windows下新建.开头文件]]></title>
+    <url>%2F2019%2F07%2F09%2F%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E4%B8%8B%E6%96%B0%E5%BB%BA-%E5%BC%80%E5%A4%B4%E6%96%87%E4%BB%B6%2F</url>
+    <content type="text"><![CDATA[本文介绍两种在Windows下新建.开头文件的方法 方法一：更改扩展名 在Windows桌面新建一个txt文件，更改该文件扩展名，保留两个句点，并在两个句点中间添加文件名称（最后一个句点会自动消失）。如下： 方法二：使用Git Bash 在要新建文件的文件夹右键选择Git Bash Here, 并执行以下命令： 1$ touch .filename 结果如下： {% asset_img pic3.png 文件名为filename的文件%}]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F07%2F08%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
