@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[failed to push some refs to git@heroku.com]]></title>
+    <url>%2F2019%2F07%2F10%2F%E6%8A%8A%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0Heroku%E6%98%AF%E6%8A%A5%E9%94%99-failed-to-push-some-refs-to-git-heroku-com%2F</url>
+    <content type="text"><![CDATA[把项目推送到Heroku时报错, 显示—failed to push some refs to git@heroku.com 在Pycharm终端分别执行以下代码时，会显示报错 123$ heroku login$ heroku create$ git push heroku master 此时需要添加一行代码即可解决， 如下： 1234$ heroku login$ heroku create$ git commit -m "Add precompiled assets for Heroku"$ git push heroku master Source: stackoverflow]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Git</tag>
+        <tag>Heroku</tag>
+        <tag>Pycharm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[把项目推送到Heroku时报错--failed to push some refs to git@heroku.com]]></title>
+    <url>%2F2019%2F07%2F10%2F%E6%8A%8A%E9%A1%B9%E7%9B%AE%E6%8E%A8%E9%80%81%E5%88%B0Heroku%E6%97%B6%E6%8A%A5%E9%94%99-failed-to-push-some-refs-to-git-heroku-com%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[如何在Windows下新建.开头文件]]></title>
     <url>%2F2019%2F07%2F09%2F%E5%A6%82%E4%BD%95%E5%9C%A8Windows%E4%B8%8B%E6%96%B0%E5%BB%BA-%E5%BC%80%E5%A4%B4%E6%96%87%E4%BB%B6%2F</url>
-    <content type="text"><![CDATA[本文介绍两种在Windows下新建.开头文件的方法 方法一：更改扩展名 在Windows桌面新建一个txt文件，更改该文件扩展名，保留两个句点，并在两个句点中间添加文件名称（最后一个句点会自动消失）。如下： 方法二：使用Git Bash 在要新建文件的文件夹右键选择Git Bash Here, 并执行以下命令： 1$ touch .filename 结果如下： {% asset_img pic3.png 文件名为filename的文件%}]]></content>
+    <content type="text"><![CDATA[本文介绍两种在Windows下新建.开头文件的方法 方法一：更改扩展名 在Windows桌面新建一个txt文件，更改该文件扩展名，保留两个句点，并在两个句点中间添加文件名称（最后一个句点会自动消失）。如下： 方法二：使用Git Bash 在要新建文件的文件夹右键选择Git Bash Here, 并执行以下命令, 一样会得到.filename的文件 1$ touch .filename]]></content>
       <categories>
         <category>学习</category>
       </categories>
