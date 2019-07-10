@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[SSR各平台资源汇总]]></title>
+    <url>%2F2019%2F07%2F10%2FSSR%E5%90%84%E5%B9%B3%E5%8F%B0%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB%2F</url>
+    <content type="text"><![CDATA[SSR Windows、Mac、Android、iOS/iPad 各平台资源及使用方法 Windows:百度网盘: 链接提取码：kr5o Mac:百度网盘: 链接提取码：xr5s Android：百度网盘: 链接提取码：0omj IOS/Ipad:无针对IOS/Ipad的SSR，但可以在App Store下载 Potatso Lite作为替代 使用方法（以Windows为例）： 解压后运行ShadowsocksR-dotnet4.0.exe文件，配置自己已有的服务器。如下： 注意: Potatso Lite 只在美区App Store 才可下载，可到淘宝购买美区账号（一般五块钱左右），切换账号后下载。]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[DeepNude 破解汉化版下载]]></title>
     <url>%2F2019%2F07%2F10%2FDeepNude-%E7%A0%B4%E8%A7%A3%E6%B1%89%E5%8C%96%E7%89%88%E4%B8%8B%E8%BD%BD%2F</url>
     <content type="text"><![CDATA[百度网盘链接: 点我提取码: w3ms使用说明： version a: 适合已经下载了初始版本，在初始版本中复制pyqtlib、qtbin这两个文件夹到新安装的目录。version b: 适合未安装初始版本，下载后直接管理员运行。 Note: 如果运行时报错，请确保使用管理员运行. Source: Python量化投资]]></content>
