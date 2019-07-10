@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[DeepNude 破解汉化版下载]]></title>
+    <url>%2F2019%2F07%2F10%2FDeepNude-%E7%A0%B4%E8%A7%A3%E6%B1%89%E5%8C%96%E7%89%88%E4%B8%8B%E8%BD%BD%2F</url>
+    <content type="text"><![CDATA[百度网盘链接: 点我提取码: w3ms使用说明： version a: 适合已经下载了初始版本，在初始版本中复制pyqtlib、qtbin这两个文件夹到新安装的目录。version b: 适合未安装初始版本，下载后直接管理员运行。 Note: 如果运行时报错，请确保使用管理员运行. Source: Python量化投资]]></content>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[报错：failed-to-push-some-refs-to-git-heroku-com]]></title>
     <url>%2F2019%2F07%2F10%2F%E6%8A%A5%E9%94%99%EF%BC%9Afailed-to-push-some-refs-to-git-heroku-com%2F</url>
     <content type="text"><![CDATA[将项目部署到heroku时报错， 显示–failed-to-push-some-refs-to-git-heroku-com 在pycharm终端分别执行如下代码后会出现这个错误： 123$ heroku login$ heroku create$ git push heroku master 解决办法： 添加如下代码 1234$ heroku login$ heroku create$ git commit -m "Add precompiled assets for Heroku"$ git push heroku master Source: stackoverflow]]></content>
