@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[冰点文库软件资源下载]]></title>
+    <url>%2F2019%2F07%2F10%2F%E5%86%B0%E7%82%B9%E6%96%87%E5%BA%93%E8%BD%AF%E4%BB%B6%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD%2F</url>
+    <content type="text"><![CDATA[冰点文库是一个可以免费下载百度文库（豆丁网、道客巴巴等）资源的免费软件，下载格式包括Word、PPT等，下载后默认生成PDF格式文件 下载链接： 百度网盘: 链接提取码：0pg2 使用方法： 1.解压后运行Fish.exe文件 2.复制要下载文件的网页链接到软件中 3.点击下载 4.下载完成后在解压后文件夹的kpdf文件夹中查看]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>软件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[SSR各平台资源汇总]]></title>
     <url>%2F2019%2F07%2F10%2FSSR%E5%90%84%E5%B9%B3%E5%8F%B0%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB%2F</url>
     <content type="text"><![CDATA[SSR Windows、Mac、Android、iOS/iPad 各平台资源及使用方法 Windows:百度网盘: 链接提取码：kr5o Mac:百度网盘: 链接提取码：xr5s Android：百度网盘: 链接提取码：0omj IOS/Ipad:无针对IOS/Ipad的SSR，但可以在App Store下载 Potatso Lite作为替代 使用方法（以Windows为例）： 解压后运行ShadowsocksR-dotnet4.0.exe文件，配置自己已有的服务器。如下： 注意: Potatso Lite 只在美区App Store 才可下载，可到淘宝购买美区账号（一般五块钱左右），切换账号后下载。]]></content>
